@@ -1,3 +1,143 @@
+body{
+    background-image: url("./screen/gify.gif");
+    background-repeat: no-repeat;  
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0px;
+    font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 .header{
-    background-image: url();
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    color: aliceblue;
+    width: 100%;
+  
+  
+}
+img{
+/* max-width: 100%; */
+height: auto;
+-webkit-transform: scale(0.999);
+transform: scale(0.999);
+}
+
+.navlink{ 
+    padding-top: 12px;
+    display: flex;
+   padding-left: 600px;
+   
+}
+ul{
+    
+    display: flex;
+}
+li{
+
+    padding-right: 30px;
+    list-style-type: none;
+}
+ .navlink button{
+  font-size: 20px;
+    background: linear-gradient(to right ,rgb(198, 91, 171),rgb(0, 174, 255));
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:0px ;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 15px;
+    border: none;
+   
+     
+}
+.title {
+
+    background: linear-gradient(to right ,rgb(198, 91, 171),rgb(0, 174, 255));
+    color: transparent;
+    background-clip: text;
+}
+.header{
+    border-bottom: 1px solid rgb(58, 33, 36);
+}
+.content {
+    background: linear-gradient(to right ,rgb(198, 91, 171),rgb(0, 174, 255));
+    color: transparent;
+    background-clip: text;
+padding: 200px 0px 0px 510px;
+ border-bottom: 1px solid rgb(58, 33, 36);
+
+padding-bottom: 100px;
+}
+.content h2{
+    
+    padding-left: 170px
+
+
+}
+.content h1{ margin-left: 20px;}
+.content button{
+    font-size: 16px;
+    margin-left:150px;
+     height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+       background: linear-gradient(to right ,rgb(198, 91, 171),rgb(0, 174, 255));
+
+
+
+}
+.under-content{
+    width: 600px;
+    height: 200px;
+   border-radius: 8px;
+    margin: 60px 0px 0px 550px;
+    color: rgba(72, 139, 184, 0.548) ;
+    background-color: rgba(216, 199, 199, 0.171);
+    /* opacity:  */
+}
+.under-content button{
+    font-size: medium;
+    color: rgb(2, 213, 255) ;
+    margin-left: 250px;
+    background-color: rgba(216, 199, 199, 0.171);
+    border: 3px solid rgb(2, 213, 255);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    opacity: 0.66
+
+}
+.under-content p {
+    margin-left: 110px;
+}
+.contain-footer
+{
+
+    margin-left: 200px;
+    color: aliceblue;
+}
+.contain-footer p{
+    font-size: 20px;
+}
+.head-footer{
+    display: flex;
+}
+.Platforme{
+
+
+}
+.Company{
+
+
+}
+.Suport{
+    
 }
