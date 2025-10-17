@@ -12,11 +12,17 @@ body {
 }
 
 .header {
+    border-bottom: 1px solid #02d5ff;
+    top: 0;
     display: flex;
-    background-color: transparent;
+    background-color: #000;
     justify-content: space-around;
-    color: #f0f8ff;
-    width: 100%
+    color: #ffffff;
+    width: 100%;
+    opacity: .92;
+    height: 100px;
+    position: sticky;
+    top: 0
 }
 
 img {
@@ -53,13 +59,11 @@ img {
 }
 
 .title {
+    position: absolute;
+    left: 10px;
     background: linear-gradient(to right, #c65bab, #00aeff);
     color: transparent;
     background-clip: text
-}
-
-.header {
-    border-bottom: 1px solid #02d5ff
 }
 
 #title_id {
@@ -68,11 +72,13 @@ img {
 }
 
 #hero {
+    filter: brightness(140%);
     object-fit: cover;
     background-image: url(./screen/gify.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow: 2px 2px 20px #088ded;
     height: 100vh;
     border-bottom: 1px solid rgba(36, 120, 172, .379)
 }
@@ -81,8 +87,7 @@ img {
     background: linear-gradient(to right, #c65bab, #00aeff);
     color: transparent;
     background-clip: text;
-    padding: 510px 0 0 510px;
-    padding-bottom: 100px
+    padding: 400px 0 0 500px
 }
 
 .content h2 {
@@ -484,4 +489,65 @@ h3 {
     font-size: 18px;
     font-weight: 700;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .7)
+}
+
+.game i {
+    color: #2291b9;
+    position: absolute;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .7);
+    bottom: 100px
+}
+
+.contact {
+    display: flex;
+    justify-content: center
+}
+
+.conatiner-contact {
+    padding-top: 30px;
+    box-shadow: 2px 2px 20px #00f;
+    border-radius: 10px;
+    border: 2px solid #2babc5;
+    color: #aaa;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    margin: 200px 0 200px 0
+}
+
+.conatiner-contact input {
+    width: 400px;
+    color: #fff;
+    background-color: #131e24;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 0;
+    transition: 1s
+}
+
+.button button {
+    transition: 1s;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px #14abe7;
+    background: linear-gradient(to right, #c65bab, #00aeff)
+}
+
+.conatiner-contact input:hover {
+    transform: scale(1.1)
+}
+
+.button button:hover {
+    transform: scale(1.1)
 }
