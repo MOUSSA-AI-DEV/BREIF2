@@ -12,11 +12,19 @@ body {
 }
 
 .header {
+        border-bottom: 1px solid rgb(2, 213, 255);
+    top: 0px;
     display: flex;
-    background-color: transparent;
+    /* position: fixed; */
+    background-color: black;
     justify-content: space-around;
-    color: aliceblue;
+    color: rgb(180, 186, 192);
     width: 100%;
+    opacity: 0.92;
+    height: 100px;
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
 
 
 }
@@ -29,6 +37,7 @@ img {
 }
 
 .navlink {
+    
     padding-top: 12px;
     display: flex;
     padding-left: 600px;
@@ -61,15 +70,15 @@ img {
 }
 
 .title {
+    position: absolute;
+    left: 10px;
 
     background: linear-gradient(to right, rgb(198, 91, 171), rgb(0, 174, 255));
     color: transparent;
     background-clip: text;
 }
 
-.header {
-    border-bottom: 1px solid rgb(2, 213, 255);
-}
+
 
 #title_id {
     font-size: 40px;
@@ -77,24 +86,26 @@ img {
 }
 
 #hero {
+    filter:brightness(140%);
     object-fit: cover;
     background-image: url("./screen/gify.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    box-shadow: 2px 2px 20px rgb(8, 141, 237);
     height: 100vh;
     border-bottom: 1px solid rgba(36, 120, 172, 0.379);
 }
+
 
 .content {
 
     background: linear-gradient(to right, rgb(198, 91, 171), rgb(0, 174, 255));
     color: transparent;
     background-clip: text;
-    padding: 510px 0px 0px 510px;
+    padding: 400px 0px 0px 500px;
 
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .content h2 {
@@ -107,10 +118,11 @@ img {
 }
 
 .content button {
+
     font-size: 16px;
     margin-left: 150px;
     height: fit-content;
-    width: fit-content;
+    width:fit-content;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -460,6 +472,8 @@ position: relative;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+/* ..........game */
+
 .game {
     font-size: 14px;
     font-weight: bold;
@@ -516,7 +530,7 @@ position: relative;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
     margin: 0;
 }
-.games-card-span{
+.games-card-span {
     color: #2291b9;
     position: absolute;
         bottom: 60px;
@@ -525,4 +539,70 @@ position: relative;
         font-weight: bold;
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
     
+}
+.game i{
+   color: #2291b9;
+    position: absolute;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    bottom: 100px;
+}
+
+
+/* contact: */
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+
+}
+.conatiner-contact{
+    padding-top: 30px;
+    box-shadow: 2px 2px 20px blue;
+    border-radius: 10px;
+    border: 2px solid rgb(43, 171, 197);
+    color: #aaa;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    margin: 200px 0px 200px 0px;
+
+}
+.conatiner-contact input{
+    width: 400px;
+    color: white;
+    background-color: #131e24;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 0px;
+    transition: 1.0s;
+}
+.button button {
+    transition: 1.0s;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin:50px 0px 50px 0px;
+    font-size: 16px;
+    box-shadow: 2px 2px 20px rgb(20, 171, 231);
+    background: linear-gradient(to right, rgb(198, 91, 171), rgb(0, 174, 255));
+}
+ .conatiner-contact input:hover{
+    transform: scale(1.1);
+
+    
+}
+.button button:hover{
+    transform: scale(1.1);
+
 }
