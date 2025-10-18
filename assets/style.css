@@ -6,6 +6,10 @@ body {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
 }
+    
+
+/* home page */
+
 
 .navlink button {
     box-shadow: 2px 2px 20px rgb(8, 141, 237);
@@ -297,7 +301,7 @@ h3 {
 }
 
 .blogs h4 {
-
+width: 100px;
     width: fit-content;
     margin-left: 45%;
     background: linear-gradient(to right, rgb(36, 211, 255), rgb(174, 57, 192));
@@ -309,7 +313,6 @@ h3 {
 
 .blogs p {
 
-    width: fit-content;
     background: linear-gradient(to right, rgb(36, 211, 255), rgb(241, 29, 230));
     background-clip: text;
     color: transparent;
@@ -338,17 +341,13 @@ h3 {
     border-radius: 30px;
     /* margin-right: 20px; */
     height:500px ;
-    width: auto;
+    width: 500px;
 position: relative;
 
 
 
 }
 
-.blog-card p {
-    margin-bottom: 50px;
-    color: rgb(173, 180, 180);
-}
 
 .blog-card span {
     color: rgb(148, 149, 149);
@@ -364,7 +363,7 @@ position: relative;
     margin-left: 30%;
 }
 
-.more p {
+.blog_paragraphe p {
     margin-top: 40px;
     color: aqua;
 }
